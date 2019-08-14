@@ -1,0 +1,232 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    background-color: black;
+}
+.header-list{
+    height: 9vh;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center; 
+    margin: auto;
+    list-style: none;
+}
+.header a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2em;
+    
+}
+.sec1{
+    background-color: rgba(0, 0, 0, 0.493);
+   height: 20cm;
+   padding-top: 8cm;
+   display: flex;
+   box-shadow: 2px 5px rgba(95, 87, 87, 0.178);
+   
+   
+   
+}
+.sec1 h1{
+    color: rgb(255, 2, 2);
+    font-size: 2em;
+   
+    
+}
+.sec1 p {
+    
+    color: white;
+    text-align-last: justify;
+    font-size: 1em;
+    
+    
+    
+
+}
+.sec1 img{
+   
+    height: 8cm;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 15cm;
+   
+}
+.sec2{
+    padding-top: 20px;   
+    text-align: center;
+    vertical-align: middle;
+    border-width: 2px;
+ background-image: url(https://tbcdn.talentbrew.com/company/936/v2_0/img/pg-share-img.jpg);
+ height: 800px;
+ /* display: flex; */
+
+}
+
+.sec3 img{
+    height: 30cm;
+    width: 34cm;
+    margin: auto;
+}
+  
+
+
+
+
+.box{
+    border: black;
+    border-style: solid;
+    width: 10cm;
+    align-items: center;
+    height: 15cm;
+    background-color: rgba(37, 36, 36, 0.733);
+    border-radius: 24px; 
+    padding: auto;
+
+}
+.im1{
+    width: 1cm;
+    height: 1cm;
+    padding-top: 1cm;
+}
+.box h1{
+    color: red;
+    font-size: 2em; 
+
+}
+.box p{
+    font-size: 2em;
+    color: white;
+    
+    
+}
+.box button{
+    height: 1cm;
+    width: 5cm;
+    margin-top: 100px;
+    color: red;
+    
+    
+}
+.box:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.boxes{
+    width: max-content;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+}
+.sec31{
+    height: 800px;
+    width: 1265px;    
+}
+.sec3{
+    padding-top 0cm;
+}
+.item1 { 
+    grid-area: header;
+    background-image: url("https://www.cpomagazine.com/wp-content/uploads/2019/07/chinese-cloud-hopper-operation-targets-top-tech-providers-in-world_1500.jpg");
+    background-size: cover;
+ }
+.item2 {
+     grid-area: menu; 
+     background-image: url("http://www.kiplinger.com/slideshow/investing/T058-S001-10-tech-stocks-to-watch-like-a-hawk-this-spring/images/intro.jpg");
+     background-size: cover;}
+.item3 {
+     grid-area: main;
+     background-image: url("https://www.fool.com.au/wp-content/uploads/2019/03/Technology-shares-16.9.jpg");
+     background-size: cover;
+     }
+.item4 { 
+    grid-area: right;
+    background-image: url("https://cdn.techinasia.com/wp-content/uploads/2017/06/47724337_l.jpg");
+    background-size: cover; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right';
+  grid-gap: 8px;
+  padding: 1px;
+  height: 800px;
+ 
+
+}
+.box2{
+    
+    align-items:center;
+     padding-left: 500px;
+     padding-top: 100px;
+     font-size: 4vh;
+     
+    
+
+    
+     
+   
+}
+
+.box2 p{
+    color: red;   
+}
+.h1{
+    color: rgba(236, 236, 240, 0.966);
+    font-size: 1em;
+
+}
+.b1{
+    background-color: rgba(207, 64, 64, 0.671);
+    width: 5cm;
+    height: 1cm;
+    border-radius: 14px;
+}
+.sec4{
+    background-color: rgb(0, 0, 0);
+    height: 600px;   
+}
+
+.b2{
+    width: 1cm;
+    height: 1cm;
+    border-radius: 80px;
+    color:red;
+}
+.fild{
+    border:2px solid rgb(255, 7, 7);
+    height: 400px;
+    width: 320px;
+    border-radius: 35px;    
+}
+.box2 :hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.fild1{
+    border:2px solid rgb(255, 7, 7);
+    height: 400px;
+    width: 400px;
+    border-radius: 35px; 
+    margin-left: 100px;
+}
+.text:hover{
+    color:red;
+    transform: scale(1.2);
+    transition: 1s;
+}
+html{
+    scroll-behavior: smooth;
+}
+.fild1:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.sec12:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    
+}
